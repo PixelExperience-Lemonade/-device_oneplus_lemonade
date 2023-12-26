@@ -45,6 +45,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-aosp
+
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oplus
